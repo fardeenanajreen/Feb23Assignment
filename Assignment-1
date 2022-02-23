@@ -1,0 +1,19 @@
+  numlist=[]
+num=int(input('Enter number:'))
+for i in range(1,num+1):
+    value = int(input('Enter number of %d element:',%i))
+    numlist.append(value)
+print('Min value is:',min(numlist))
+print('Max value is:',max(numlist))
+
+
+OUTPUT:
+Enter number:6
+Enter number of 1 element: 5
+Enter number of 2 element: 4
+Enter number of 3 element: 3
+Enter number of 4 element: 6
+Enter number of 5 element: 2
+Enter number of 6 element: 1
+Min value is:1
+Max value is:6
